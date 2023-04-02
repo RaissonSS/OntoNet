@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(255, 204, 0);
+}
+.header img {
+  width: 10%;
+  cursor: pointer;
+}
+.header .header-sections {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.header .header-sections p {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
