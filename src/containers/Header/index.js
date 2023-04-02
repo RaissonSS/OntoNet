@@ -1,6 +1,6 @@
 import React from "react"
 import "./styles.css"
-import logoOntoNet from "../../assets/logo-ontonet.png"
+import logoOntoNet from "../../assets/logos/logo-ontonet.png"
 
 function Header({ section, setSection }) {
 

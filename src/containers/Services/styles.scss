@@ -1,0 +1,82 @@
+.box-services {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: purple;
+
+    .content-services {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        padding: 30px;
+        gap: 50px;
+        background-color: orange;
+
+        .header-services {
+            align-self: center;
+        }
+
+        .main-content-services {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+
+            .services-textimage {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .services-item-text {
+                    width: 50%;
+
+                    p {
+                        text-align: center;
+                    }
+                }
+            }
+
+            .services-text {
+                display: flex;
+                justify-content: center;
+
+                p {
+                    text-align: center;
+                    width: 50%;
+                }
+            }
+
+            .services-item {
+                width: 90%;
+            }
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
+
+.background-animated {
+    background: linear-gradient(230deg, #005fff, #001d4d);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
