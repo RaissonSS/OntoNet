@@ -1,6 +1,11 @@
 import React, { useState } from "react"
-import Header from "../Header";
 import "./styles.css"
+
+import Header from "../Header"
+import Services from "../Services/Services"
+import Clients from "../Clients/Clients"
+import Squad from "../Squad/Squad"
+import Contact from "../Contact/Contact"
 
 function App() {
     const [ section, setSection ] = useState(1)
@@ -19,15 +24,15 @@ function App() {
 function RenderSection(section) {
   switch(section) {
     case 1:
-      return <p>Serviços</p>
+      return <Services />
     case 2:
-      return <p>Clientes</p>
+      return <Clients />
     case 3:
-      return <p>Equipe</p>
+      return <Squad />
     case 4:
-      return <p>Contato</p>
+      return <Contact />
     default:
-      return <p>Serviços</p>
+      return <Services />
   }
 }
 
