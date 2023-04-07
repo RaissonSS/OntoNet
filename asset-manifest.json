@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/OntoNet/static/css/main.4a58c133.css",
+    "main.js": "/OntoNet/static/js/main.a3a01965.js",
+    "static/media/internet.webp": "/OntoNet/static/media/internet.fc700910dc6bf75e2860.webp",
+    "static/media/fibra-optica.webp": "/OntoNet/static/media/fibra-optica.f5873f29592a954561ca.webp",
+    "static/media/logo-ontonet.png": "/OntoNet/static/media/logo-ontonet.3fe5d77f99ddef390bd0.png",
+    "index.html": "/OntoNet/index.html",
+    "main.4a58c133.css.map": "/OntoNet/static/css/main.4a58c133.css.map",
+    "main.a3a01965.js.map": "/OntoNet/static/js/main.a3a01965.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a58c133.css",
+    "static/js/main.a3a01965.js"
+  ]
+}
