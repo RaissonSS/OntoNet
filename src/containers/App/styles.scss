@@ -8,4 +8,33 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    min-height: 100vh;
+    overflow: auto;
+
+    .section-box {
+        display: flex;
+        justify-content: center;
+        height: 90%;
+        background-color: blue;
+        overflow: auto;
+
+        .services-box,
+        .clients-box,
+        .squad-box,
+        .contact-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            padding: 30px;
+            height: auto;
+            width: 75%;
+            background-color: yellow;
+            overflow: auto;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
 }

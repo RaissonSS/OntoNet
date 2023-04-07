@@ -1,52 +1,39 @@
-.box-services {
-  display: flex;
-  justify-content: center;
-  background-color: purple;
-}
-.box-services .content-services {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  padding: 30px;
-  gap: 50px;
-  background-color: orange;
-}
-.box-services .content-services .header-services {
+.services-box .header-services {
   align-self: center;
 }
-.box-services .content-services .main-content-services {
+.services-box .main-content-services {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 60px;
 }
-.box-services .content-services .main-content-services .services-textimage {
+.services-box .main-content-services .services-textimage {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.box-services .content-services .main-content-services .services-textimage .services-item-text {
+.services-box .main-content-services .services-textimage .services-item-text {
   width: 50%;
 }
-.box-services .content-services .main-content-services .services-textimage .services-item-text p {
+.services-box .main-content-services .services-textimage .services-item-text p {
   text-align: center;
 }
-.box-services .content-services .main-content-services .services-text {
+.services-box .main-content-services .services-text {
   display: flex;
   justify-content: center;
 }
-.box-services .content-services .main-content-services .services-text p {
+.services-box .main-content-services .services-text p {
   text-align: center;
   width: 50%;
 }
-.box-services .content-services .main-content-services .services-item {
+.services-box .main-content-services .services-item {
   width: 90%;
 }
-.box-services .content-services .main-content-services p {
+.services-box .main-content-services p {
   font-family: "Montserrat", sans-serif;
 }
-.box-services .content-services .main-content-services img {
+.services-box .main-content-services img {
   width: 30%;
 }
 

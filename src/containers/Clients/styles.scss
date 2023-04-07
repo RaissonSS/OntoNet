@@ -1,32 +1,18 @@
-.box-clients {
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    height: 100%;
+.clients-box {
 
-    .content-clients {
+    .clients-text {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .clients-images {
+        display: flex;
+        justify-content: space-between;
         width: 75%;
-        padding: 30px;
-        background-color: blue;
-        gap: 50px;
-
-        .clients-text {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                text-align: center;
-            }
-        }
-
-        .clients-images {
-            display: flex;
-            justify-content: space-between;
-            width: 75%;
-        }
     }
 }

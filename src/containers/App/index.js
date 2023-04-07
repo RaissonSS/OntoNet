@@ -16,7 +16,9 @@ function App() {
           section={ section }
           setSection={ setSection }
         />
-        { RenderSection(section) }
+        <div className="section-box">
+          { RenderSection(section) }
+        </div>
       </div>
     );
 }

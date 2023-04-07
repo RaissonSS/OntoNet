@@ -1,15 +1,10 @@
-.box-contact {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    background-color: red;
+.contact-box {
 
     .content-contact {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 75%;
-        padding: 30px;
         gap: 30px;
         background-color: pink;
 

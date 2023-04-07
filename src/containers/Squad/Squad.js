@@ -3,7 +3,7 @@ import "./styles.css"
 
 function Squad() {
     return (
-        <div className="box-squad">
+        <div className="squad-box">
             <div className="content-squad">
                 <p>Equipe OntoNet</p>
                 <div className="squad-squad">

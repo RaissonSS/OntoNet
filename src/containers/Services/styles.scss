@@ -1,64 +1,53 @@
-.box-services {
-    display: flex;
-    justify-content: center;
-    background-color: purple;
+.services-box {
 
-    .content-services {
+    .header-services {
+        align-self: center;
+    }
+    
+    .main-content-services {
         display: flex;
         flex-direction: column;
-        width: 75%;
-        padding: 30px;
-        gap: 50px;
-        background-color: orange;
-
-        .header-services {
-            align-self: center;
-        }
-
-        .main-content-services {
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    
+        .services-textimage {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
-            gap: 60px;
-
-            .services-textimage {
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-
-                .services-item-text {
-                    width: 50%;
-
-                    p {
-                        text-align: center;
-                    }
-                }
-            }
-
-            .services-text {
-                display: flex;
-                justify-content: center;
-
+    
+            .services-item-text {
+                width: 50%;
+    
                 p {
                     text-align: center;
-                    width: 50%;
                 }
             }
-
-            .services-item {
-                width: 90%;
-            }
-
+        }
+    
+        .services-text {
+            display: flex;
+            justify-content: center;
+    
             p {
-                font-family: 'Montserrat', sans-serif;
-            }
-
-            img {
-                width: 30%;
+                text-align: center;
+                width: 50%;
             }
         }
+    
+        .services-item {
+            width: 90%;
+        }
+    
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        img {
+            width: 30%;
+        }
     }
+    
 }
 
 .background-animated {

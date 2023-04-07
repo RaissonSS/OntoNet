@@ -3,7 +3,7 @@ import "./styles.css"
 
 function Contact() {
     return (
-        <div className="box-contact">
+        <div className="contact-box">
             <div className="content-contact">
                 <p>Entre em contato conosco através de nossas redes:</p>
                 <div className="contact-social-medias">
