@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   height: 10%;
-  background-color: rgb(255, 204, 0);
+  background-color: #114b75;
 }
 .header img {
   width: 10%;
@@ -17,6 +17,7 @@
 }
 .header .header-sections p {
   cursor: pointer;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

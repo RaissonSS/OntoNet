@@ -11,11 +11,16 @@
   min-height: 100vh;
   overflow: auto;
 }
+.box .background-animated {
+  background: linear-gradient(359deg, #46708e, #003860);
+  background-size: 400% 400%;
+  -webkit-animation: Animation 11s ease infinite;
+  animation: Animation 11s ease infinite;
+}
 .box .section-box {
   display: flex;
   justify-content: center;
   height: 90%;
-  background-color: blue;
   overflow: auto;
 }
 .box .section-box .services-box,
@@ -29,7 +34,7 @@
   padding: 30px;
   height: auto;
   width: 75%;
-  background-color: yellow;
+  background-color: #3b6684;
   overflow: auto;
 }
 .box .section-box .services-box::-webkit-scrollbar,
@@ -37,6 +42,29 @@
 .box .section-box .squad-box::-webkit-scrollbar,
 .box .section-box .contact-box::-webkit-scrollbar {
   display: none;
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@keyframes Animation {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

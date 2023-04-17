@@ -16,7 +16,7 @@ function App() {
           section={ section }
           setSection={ setSection }
         />
-        <div className="section-box">
+        <div className="section-box background-animated">
           { RenderSection(section) }
         </div>
       </div>

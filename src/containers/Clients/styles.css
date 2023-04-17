@@ -1,15 +1,5 @@
-.clients-box .clients-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.clients-box .clients-text p {
+.clients-box {
   text-align: center;
-}
-.clients-box .clients-images {
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
 }
 
 /*# sourceMappingURL=styles.css.map */

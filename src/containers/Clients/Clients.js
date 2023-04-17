@@ -6,13 +6,10 @@ import data from "../../data/index"
 function Clients() {
     return (
         <div className="clients-box">
-            <div className="clients-text">
-                <p>{ data.clients }</p>
-            </div>
-            <div className="clients-images">
-                <img alt="foto 01" />
-                <img alt="foto 02" />
-            </div>
+            <p>{ data.clients[0] }</p>
+            <img alt="foto 01" />
+            <p>{ data.clients[0] }</p>
+            <img alt="foto 02" />
         </div>
     )
 }

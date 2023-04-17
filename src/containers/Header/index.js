@@ -13,10 +13,10 @@ function Header({ section, setSection }) {
         <div className="header">
             <img alt="OntoNet logo" src={ logoOntoNet }  onClick={ () => { clickSection(1) } } />
             <div className="header-sections">
-                <p onClick={ () => { clickSection(1) } }>Serviços</p>
-                <p onClick={ () => { clickSection(2) } }>Clientes</p>
-                <p onClick={ () => { clickSection(3) } }>Equipe</p>
-                <p onClick={ () => { clickSection(4) } }>Contato</p>
+                <p onClick={ () => { clickSection(1) } }><strong>SERVIÇOS</strong></p>
+                <p onClick={ () => { clickSection(2) } }><strong>CLIENTES</strong></p>
+                <p onClick={ () => { clickSection(3) } }><strong>EQUIPE</strong></p>
+                <p onClick={ () => { clickSection(4) } }><strong>CONTATO</strong></p>
             </div>
         </div>
     )
