@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./styles.css"
+import "../Styles/styles.css"
 
 import Header from "../Header"
 import Services from "../Services/Services"

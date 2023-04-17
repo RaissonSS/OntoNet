@@ -1,5 +1,5 @@
 import React from "react"
-import "./styles.css"
+import "../Styles/styles.css"
 
 import data from "../../data"
 import fibraOptica from "../../assets/fibra-optica.webp"
