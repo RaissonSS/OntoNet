@@ -1,12 +1,17 @@
 import React from "react"
 import "./styles.css"
 
+import SquadImage from "../../assets/squad-image.jpg"
+
 function Squad() {
     return (
         <div className="squad-box">
-            <div className="content-squad">
-                <p>Equipe OntoNet</p>
+            <div className="squad-wrapper">
+                <div className="squad-background">
+                    <img alt="equipe" src={ SquadImage } id="squad-image" />
+                </div>
                 <div className="squad-squad">
+                    <p id="squad-title">Equipe OntoNet</p>
                     <p>Diretor: <strong>Marcelo</strong></p>
                     <p>Marketing & Comercial: <strong>Rodrigo</strong></p>
                     <p>Suporte ao Cliente: <strong>Mariane</strong></p>
