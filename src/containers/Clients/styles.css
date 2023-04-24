@@ -1,3 +1,23 @@
 .clients-box {
   text-align: center;
+  justify-content: center;
+}
+.clients-box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: white;
+  width: 50%;
+}
+.clients-box img {
+  width: 20%;
+}
+.clients-box .clients-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.clients-box .clients-content #client-image {
+  border-radius: 77% 23% 35% 65%/35% 59% 41% 65%;
 }/*# sourceMappingURL=styles.css.map */

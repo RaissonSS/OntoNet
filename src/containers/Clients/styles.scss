@@ -1,19 +1,27 @@
 .clients-box {
     text-align: center;
+    justify-content: center;
 
-    // .clients-text {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: white;
+        width: 50%;
+    }
 
-    //     p {
-    //         text-align: center;
-    //     }
-    // }
+    img {
+        width: 20%;
+    }
 
-    // .clients-images {
-    //     display: flex;
-    //     justify-content: space-between;
-    //     width: 75%;
-    // }
+    .clients-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+
+        #client-image {
+            border-radius: 77% 23% 35% 65% / 35% 59% 41% 65% ;
+        }
+    }
 }
