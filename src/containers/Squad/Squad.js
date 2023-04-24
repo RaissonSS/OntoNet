@@ -1,5 +1,5 @@
 import React from "react"
-import "../Styles/styles.css"
+import "./styles.css"
 
 function Squad() {
     return (
