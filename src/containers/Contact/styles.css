@@ -1,20 +1,14 @@
-.contact-box .content-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 75%;
-  gap: 30px;
-  background-color: pink;
-}
-.contact-box .content-contact p {
+.contact-box p {
   font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-.contact-box .content-contact .contact-social-medias {
+.contact-box .contact-social-medias {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contact-box .content-contact .contact-social-medias p {
+.contact-box .contact-social-medias p {
   font-size: 17px;
 }/*# sourceMappingURL=styles.css.map */

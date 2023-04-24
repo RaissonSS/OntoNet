@@ -1,26 +1,19 @@
 .contact-box {
 
-    .content-contact {
+    p {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .contact-social-medias {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        width: 75%;
-        gap: 30px;
-        background-color: pink;
 
         p {
-            font-size: 25px;
-        }
-
-        .contact-social-medias {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-size: 17px;
-            }
+            font-size: 17px;
         }
     }
 }
