@@ -1,0 +1,45 @@
+.servies-item-wrapper {
+    position: relative;
+    width: 100%;
+
+    .services-item-border {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: #46708e;
+        width: 1260px;
+        height: 228px;
+        border-radius: 30px;
+    }
+
+    .services-item-background {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(80%, 0%);
+
+        img {
+            width: 350px;
+            -webkit-mask-image: linear-gradient(to right, transparent 10%, black 100%);
+            border-radius: 30px;
+        }
+    }
+
+    .services-item-text {
+        position: absolute;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        transform: translate(-90%, 70%);
+        width: 500px;
+        color: white;
+        text-align: center;
+    }
+}
+
+#internet {
+    height: 200px;
+}

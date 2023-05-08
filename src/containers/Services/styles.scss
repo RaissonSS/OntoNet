@@ -1,5 +1,4 @@
 .services-box {
-
     .header-services {
         align-self: center;
 
@@ -17,45 +16,7 @@
         align-items: center;
         gap: 50px;
         padding: 30px;
-        // border: 1px red solid;
-
-        .services-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #46708e;
-            border-radius: 15px;
-            gap: 20px;
-            width: fit-content;
-            border: 1px red solid;
-
-            p {
-                width: 50%;
-                text-align: center;
-                border: 1px red solid;
-            }
-        }
-
-        p {
-            font-family: 'Montserrat', sans-serif;
-            text-align: center;
-            color: white;
-        }
-
-        img {
-            width: 30%;
-            border-radius: 15px;
-        }
-
-        #optical-fiber {
-            -webkit-mask-image: linear-gradient(to right, transparent 10%, black 100%);
-        }
-
-        #internet {
-            -webkit-mask-image: linear-gradient(to left, transparent 10%, black 100%);
-        }
     }
-    
 }
 
 .background-animated {

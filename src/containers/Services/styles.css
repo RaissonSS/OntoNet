@@ -14,36 +14,6 @@
   gap: 50px;
   padding: 30px;
 }
-.services-box .main-content-services .services-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #46708e;
-  border-radius: 15px;
-  gap: 20px;
-  width: fit-content;
-  border: 1px red solid;
-}
-.services-box .main-content-services .services-item p {
-  width: 50%;
-  text-align: center;
-  border: 1px red solid;
-}
-.services-box .main-content-services p {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  color: white;
-}
-.services-box .main-content-services img {
-  width: 30%;
-  border-radius: 15px;
-}
-.services-box .main-content-services #optical-fiber {
-  -webkit-mask-image: linear-gradient(to right, transparent 10%, black 100%);
-}
-.services-box .main-content-services #internet {
-  -webkit-mask-image: linear-gradient(to left, transparent 10%, black 100%);
-}
 
 .background-animated {
   background: linear-gradient(230deg, #005fff, #001d4d);
